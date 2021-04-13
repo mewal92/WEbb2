@@ -1,0 +1,80 @@
+
+/* bakgrund*/
+body {
+   background-image: url('Provovovov.jpg'); /*bakgrundsbild*/
+   background-size: cover; /* bakgrundsbilden ska täcka skärmen */
+   background-position: absolute;
+   background-attachment:fixed; /*bakgrundsbidlen ska sitta fast */
+
+}
+
+.meny {
+	  list-style-type: none;
+  display: block;
+  margin: 0px;
+  padding: 5px;
+  overflow: hidden;
+   background: rgb(0, 0, 0); 
+  background: rgba(1, 0, 0, 0.3); /*genomskinlighet på navigeringsmenyn */
+  position: -webkit-fixed; 
+  position: fixed; /* ska sitta fast vid toppen */
+  top: 0;
+  right: 0;
+  width: 60%;
+  z-index: 1;
+  border-radius: 10px;
+
+}
+
+/* MENY */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+
+ul {
+  display: inline;
+  flex-direction: left;
+  align-items: start;
+  list-style-type: none;
+  margin-top: 0px;
+
+}
+  li {
+    padding: 10px 6px;
+    float: right;
+}
+    a {
+
+      --fill-color: #5e91b6;
+      position: left;
+      display: inline;
+      padding: 10px 20px;
+      font: 700 1rem Raleway, sans-serif;
+      text-decoration: underline;
+      text-transform: uppercase;
+      -webkit-text-stroke: 0.5px #000000;
+      background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+      color: #FFFFFF;
+      background-clip: text;
+      transition: 0.5s linear;
+}
+      a:hover {
+        background-size: 100%;
+      }
+
+h1 {
+margin-top:150px;
+margin-left: 35px;
+	font-size: 65px;
+	color: #FFFFFF;
+	font-family: tahoma;
+	text-shadow: 1px 2px 2px #2d4d65; /*textskugga*/
+	opacity: 0.7; /*text opacitet */
+	letter-spacing: 5px;
+}
+	p {
+		color: #FFFFFF;
+		margin-left: 40px;
+		text-align: inherit;
+
+
+	}
