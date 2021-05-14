@@ -26,7 +26,8 @@ z-index: 1;
   align-items: center;
   padding: 20px;
   margin-left: 0px;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.1);
+
 
 }
 
@@ -46,16 +47,33 @@ z-index: 1;
 
 }
 .topmenu li a:hover{
-  text-decoration: underline;
-  text-decoration-color: red;
   margin-bottom: 10px;
-
-
-
-
+  border-bottom: 3px solid red;
 
 }
 .logo{
   width: 50px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 880px) {
+  .header a {
+    display: block;
+    text-align: center;
+    margin: 25px;
+    width: auto;
+ }
+  .Paragraph p{
+    text-align: center;
+  }
+  .Paragraph h3{
+    text-align: center;
+
+  }
+  .container{
+min-width: 200px;
+  }
+
+  .header-right {
+  float: none;
+  }
