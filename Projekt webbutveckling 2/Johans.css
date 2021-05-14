@@ -24,7 +24,7 @@ z-index: 1;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   margin-left: 0px;
   background-color: rgba(0, 0, 0, 0.1);
 
@@ -52,7 +52,8 @@ z-index: 1;
 
 }
 .logo{
-  width: 50px;
+  width: 150px;
+  height: 61px;
   cursor: pointer;
 }
 
